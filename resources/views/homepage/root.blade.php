@@ -27,21 +27,11 @@
                 
                 <div class="text-gray-600 text-sm sm:text-base leading-relaxed space-y-6">
                     <p>
-                        {{ __('With an academic background in Germany and direct experience within the German and European education systems, Anna connects structured learning with real-world professional application.') }}
+                        {{ __('With an academic background in Germany and first-hand experience across the German and European education and professional landscape, Anna brings together academic knowledge, international exposure, and practical business experience. Her background spans business development, talent development, communication, and cross-border collaboration, giving her a broad understanding of how people and businesses can grow across different markets.') }}
                     </p>
                     
                     <p>
-                        {{ __('Her primary focus is to guide students and professionals not only to master the German language, but also to build confidence, clarity of direction, and mental readiness for their international journey.') }}
-                    </p>
-                    
-                    <div class="pl-6 border-l-2 border-[#C0A062] my-8 py-2">
-                        <p class="italic text-[#324338] font-serif text-lg lg:text-xl leading-relaxed">
-                            "We empower individuals to transform their lives through education and real opportunities in Germany."
-                        </p>
-                    </div>
-                    
-                    <p>
-                        Founded in 2024, Deutsche Sprache (DS) chose Kediri as the starting point of its journey. With a global vision and a structured academic approach, DS exists not only as a language learning institution, but as a space for life preparation toward the international stage.
+                        {{ __('As the founder of DS Global Consulting, Anna focuses on developing international business opportunities, building strategic partnerships, and connecting organizations with international talent. Her work sits at the intersection of business, people, and international markets with a focus on creating structured, sustainable opportunities for growth.') }}
                     </p>
                 </div>
 
@@ -287,11 +277,11 @@
   <div class="wrap">
 
     <div class="diagram">
-      <span class="node">International Talent</span>
+      <a href="{{ route('employer.international-talent') }}" class="node" style="text-decoration:none; display:inline-block; transition: all 0.2s ease;" onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 4px 12px rgba(11,31,58,0.1)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">International Talent</a>
       <span class="line"></span>
-      <span class="node mid">DS Global Consulting</span>
+      <a href="{{ route('about.index') }}" class="node mid" style="text-decoration:none; display:inline-block; transition: all 0.2s ease;" onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 4px 12px rgba(201,162,39,0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">DS Global Consulting</a>
       <span class="line"></span>
-      <span class="node">International Opportunity</span>
+      <a href="{{ route('employer.index') }}" class="node" style="text-decoration:none; display:inline-block; transition: all 0.2s ease;" onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 4px 12px rgba(11,31,58,0.1)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">International Opportunity</a>
     </div>
 
     <div class="s1-head">
@@ -302,7 +292,7 @@
       <div class="s1-intro">
         <p>DS Global Consulting sits at the point where a prepared candidate meets an organization ready to receive them. Language is where that relationship begins — it has never been where our work ends.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="#">
+          <a class="btn btn-primary" href="{{ route('programs.index') }}">
             See how the pathway works
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
