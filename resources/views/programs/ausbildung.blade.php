@@ -8,7 +8,7 @@
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div class="w-full lg:w-1/2 text-center lg:text-left">
                 <div class="flex items-center justify-center lg:justify-start gap-2 text-[#C0A062] text-[0.65rem] font-bold tracking-[0.2em] uppercase mb-4 lg:mb-6">
-                    <a href="/programs" class="hover:text-[#324338] transition">Germany Program</a> 
+                    <a href="{{ route('programs.index') }}" class="hover:text-[#324338] transition">Germany Program</a> 
                     <span class="text-gray-400">/</span>
                     <span>Career Pathway</span>
                 </div>
@@ -82,18 +82,18 @@
             <p class="text-gray-500 text-base sm:text-lg leading-relaxed mb-12 max-w-2xl mx-auto">
                 Tell us your field of interest and current language level, and we’ll walk you through what the pathway looks like for you specifically.
             </p>
-            <a href="#" class="inline-flex justify-center items-center bg-[#324338] text-white px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 shadow-xl hover:shadow-2xl mb-12">
+            <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center bg-[#324338] text-white px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 shadow-xl hover:shadow-2xl mb-12">
                 Talk to Us About Ausbildung
             </a>
             
             <div class="border-t border-gray-200 pt-10">
                 <p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-6">Related Programs</p>
                 <div class="flex flex-wrap justify-center gap-4 text-xs font-bold uppercase tracking-wide">
-                    <a href="/programs/german-language" class="text-[#324338] hover:text-[#C0A062] transition">German Language Program</a>
+                    <a href="{{ route('programs.german-language') }}" class="text-[#324338] hover:text-[#C0A062] transition">German Language Program</a>
                     <span class="text-gray-300">|</span>
-                    <a href="#" class="text-[#324338] hover:text-[#C0A062] transition">Supporting Services</a>
+                    <a href="{{ route('programs.supporting-services') }}" class="text-[#324338] hover:text-[#C0A062] transition">Supporting Services</a>
                     <span class="text-gray-300">|</span>
-                    <a href="/programs" class="text-[#C0A062] hover:text-[#324338] transition">&larr; Back to Germany Program</a>
+                    <a href="{{ route('programs.index') }}" class="text-[#C0A062] hover:text-[#324338] transition">&larr; Back to Germany Program</a>
                 </div>
             </div>
         </div>

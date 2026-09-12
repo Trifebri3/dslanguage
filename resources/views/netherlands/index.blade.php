@@ -62,16 +62,16 @@
             <p class="text-gray-300 text-base sm:text-lg leading-relaxed mb-12 max-w-2xl mx-auto font-light">
                 Tell us whether you’re exploring Au Pair placement or further study, and your current Dutch level, and we’ll walk you through the next step.
             </p>
-            <a href="#" class="inline-flex justify-center items-center bg-white text-[#324338] px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] hover:text-white transition duration-300 shadow-xl hover:shadow-2xl mb-12">
+            <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center bg-white text-[#324338] px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] hover:text-white transition duration-300 shadow-xl hover:shadow-2xl mb-12">
                 Talk to Us About the Netherlands
             </a>
             
             <div class="border-t border-gray-600/50 pt-10">
                 <p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-6">Related Navigation</p>
                 <div class="flex flex-wrap justify-center gap-4 text-xs font-bold uppercase tracking-wide">
-                    <a href="/programs" class="text-[#C0A062] hover:text-white transition">Germany Program</a>
+                    <a href="{{ route('programs.index') }}" class="text-[#C0A062] hover:text-white transition">Germany Program</a>
                     <span class="text-gray-500">|</span>
-                    <a href="/" class="text-[#C0A062] hover:text-white transition">&larr; Back to Homepage</a>
+                    <a href="{{ route('homepage.index') }}" class="text-[#C0A062] hover:text-white transition">&larr; Back to Homepage</a>
                 </div>
             </div>
         </div>

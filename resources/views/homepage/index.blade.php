@@ -63,7 +63,7 @@
                 <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-8 lg:mb-10">
                     Deutsche Sprache began as a language institution. What we are building is larger than that. We work with individuals preparing for a future in Germany, and increasingly with the institutions and organizations there that will receive them. Language education remains our foundation, it is no longer the whole of what we do.
                 </p>
-                <a href="#" class="inline-flex items-center text-[#324338] font-bold tracking-widest uppercase text-xs hover:text-[#C0A062] transition duration-300">
+                <a href="{{ route('about.index') }}" class="inline-flex items-center text-[#324338] font-bold tracking-widest uppercase text-xs hover:text-[#C0A062] transition duration-300">
                     Learn Our Direction
                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                 </a>
@@ -87,7 +87,7 @@
                 <div class="bg-ds-light p-8 lg:p-12 border border-gray-100 hover:border-[#C0A062] transition duration-500 group text-center sm:text-left">
                     <h3 class="font-serif text-xl sm:text-2xl text-[#324338] mb-4">Language Foundation</h3>
                     <p class="text-gray-600 text-sm sm:text-base mb-6 lg:mb-8 leading-relaxed">Structured German instruction from A1 to B2, with Goethe and telc exam preparation.</p>
-                    <a href="#" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
+                    <a href="{{ route('programs.german-language') }}" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
                         German Language Program
                         <svg class="w-3 h-3 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                     </a>
@@ -96,7 +96,7 @@
                 <div class="bg-ds-light p-8 lg:p-12 border border-gray-100 hover:border-[#C0A062] transition duration-500 group text-center sm:text-left">
                     <h3 class="font-serif text-xl sm:text-2xl text-[#324338] mb-4">Ausbildung</h3>
                     <p class="text-gray-600 text-sm sm:text-base mb-6 lg:mb-8 leading-relaxed">Vocational training pathway guidance, from choosing a field to interview preparation.</p>
-                    <a href="#" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
+                    <a href="{{ route('programs.ausbildung') }}" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
                         Ausbildung
                         <svg class="w-3 h-3 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                     </a>
@@ -105,7 +105,7 @@
                 <div class="bg-ds-light p-8 lg:p-12 border border-gray-100 hover:border-[#C0A062] transition duration-500 group text-center sm:text-left">
                     <h3 class="font-serif text-xl sm:text-2xl text-[#324338] mb-4">Study in Germany</h3>
                     <p class="text-gray-600 text-sm sm:text-base mb-6 lg:mb-8 leading-relaxed">Studienkolleg preparation and university application support.</p>
-                    <a href="#" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
+                    <a href="{{ route('programs.study-in-germany') }}" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
                         Study in Germany
                         <svg class="w-3 h-3 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                     </a>
@@ -114,7 +114,7 @@
                 <div class="bg-ds-light p-8 lg:p-12 border border-gray-100 hover:border-[#C0A062] transition duration-500 group text-center sm:text-left">
                     <h3 class="font-serif text-xl sm:text-2xl text-[#324338] mb-4">Supporting Services</h3>
                     <p class="text-gray-600 text-sm sm:text-base mb-6 lg:mb-8 leading-relaxed">Document translation, blocked account setup, health insurance guidance.</p>
-                    <a href="#" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
+                    <a href="{{ route('programs.supporting-services') }}" class="inline-flex items-center text-[#C0A062] font-bold tracking-widest uppercase text-[0.65rem] group-hover:text-[#324338] transition duration-300">
                         Supporting Services
                         <svg class="w-3 h-3 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                     </a>
@@ -136,7 +136,7 @@
                     <p class="text-gray-300 text-base sm:text-lg leading-relaxed mb-5 sm:mb-6">
                         Students, prospective Ausbildung trainees, and professionals preparing for a future in Germany. We prepare you for what actually awaits: the language, the workplace, and the standards of a new professional environment.
                     </p>
-                    <a href="#" class="inline-flex items-center text-white font-bold tracking-widest uppercase text-[0.65rem] hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
+                    <a href="{{ route('programs.index') }}" class="inline-flex items-center text-white font-bold tracking-widest uppercase text-[0.65rem] hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
                         Explore Programs
                         <svg class="w-3 h-3 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                     </a>
@@ -146,7 +146,7 @@
                     <p class="text-gray-300 text-base sm:text-lg leading-relaxed mb-5 sm:mb-6">
                         Companies and organizations considering international talent as part of their workforce strategy. We help you engage Indonesian talent with confidence, backed by a partner that understands your requirements before presenting a single candidate.
                     </p>
-                    <a href="#" class="inline-flex items-center text-white font-bold tracking-widest uppercase text-[0.65rem] hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
+                    <a href="{{ route('employer.index') }}" class="inline-flex items-center text-white font-bold tracking-widest uppercase text-[0.65rem] hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
                         Explore Employer Readiness
                         <svg class="w-3 h-3 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                     </a>
@@ -165,7 +165,7 @@
                 <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-8 lg:mb-10">
                     We measure success by how well someone performs after the certificate is issued or the contract is signed, not by exam pass rates or placements closed. That’s the difference between a language school, a recruitment agency, and what we’re building.
                 </p>
-                <a href="#" class="inline-flex items-center text-[#324338] font-bold tracking-widest uppercase text-xs hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
+                <a href="{{ route('about.index') }}" class="inline-flex items-center text-[#324338] font-bold tracking-widest uppercase text-xs hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
                     Learn Why DS Language
                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                 </a>
@@ -178,7 +178,7 @@
                 <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-8 lg:mb-10">
                     Headquartered in Pare, Kediri, with a second location opening in Yogyakarta. Germany is the center of our current focus, alongside parallel pathways for Japan and the Netherlands.
                 </p>
-                <a href="#" class="inline-flex items-center text-[#324338] font-bold tracking-widest uppercase text-xs hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
+                <a href="{{ route('about.index') }}" class="inline-flex items-center text-[#324338] font-bold tracking-widest uppercase text-xs hover:text-[#C0A062] transition duration-300 justify-center sm:justify-start w-full sm:w-auto">
                     See Our Presence
                     <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                 </a>
@@ -193,7 +193,7 @@
             <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-10 lg:mb-12 max-w-2xl">
                 Practical guidance on the visa, cultural, and career questions candidates and employers actually have.
             </p>
-            <a href="#" class="inline-flex items-center justify-center border border-gray-300 px-8 py-4 text-xs font-bold tracking-[0.15em] text-[#324338] uppercase hover:border-[#324338] transition duration-300 w-full sm:w-auto">
+            <a href="{{ route('insights.index') }}" class="inline-flex items-center justify-center border border-gray-300 px-8 py-4 text-xs font-bold tracking-[0.15em] text-[#324338] uppercase hover:border-[#324338] transition duration-300 w-full sm:w-auto">
                 Explore Insights
             </a>
         </div>
@@ -207,10 +207,10 @@
                 Whether you’re preparing to build a future in Germany, or exploring what international talent could mean for your workforce, the first step is the same: tell us where you are.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#" class="inline-flex justify-center items-center bg-[#C0A062] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-yellow-600 transition duration-300 w-full sm:w-auto">
+                <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center bg-[#C0A062] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-yellow-600 transition duration-300 w-full sm:w-auto">
                     Begin Your German Story
                 </a>
-                <a href="#" class="inline-flex justify-center items-center border border-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-white hover:text-[#3b4b41] transition duration-300 w-full sm:w-auto">
+                <a href="{{ route('employer.employer-solutions') }}" class="inline-flex justify-center items-center border border-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-white hover:text-[#3b4b41] transition duration-300 w-full sm:w-auto">
                     Explore Employer Solutions
                 </a>
             </div>

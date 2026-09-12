@@ -11,10 +11,10 @@
             DS Language prepares Indonesian talent for Germany, through language, readiness, and pathway guidance, and helps employers work with candidates who arrive prepared, not just introduced.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full">
-            <a href="#" class="inline-flex justify-center items-center border border-gray-300 px-6 py-4 text-xs font-bold tracking-[0.15em] text-[#324338] uppercase hover:border-[#324338] transition duration-300 w-full sm:w-auto text-center">
+            <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center border border-gray-300 px-6 py-4 text-xs font-bold tracking-[0.15em] text-[#324338] uppercase hover:border-[#324338] transition duration-300 w-full sm:w-auto text-center">
                 Begin Your German Story
             </a>
-            <a href="#" class="inline-flex justify-center items-center px-6 py-4 text-xs font-bold tracking-[0.15em] text-[#324338] uppercase hover:text-[#C0A062] transition duration-300 w-full sm:w-auto text-center">
+            <a href="{{ route('employer.employer-solutions') }}" class="inline-flex justify-center items-center px-6 py-4 text-xs font-bold tracking-[0.15em] text-[#324338] uppercase hover:text-[#C0A062] transition duration-300 w-full sm:w-auto text-center">
                 Explore Employer Solutions
                 <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
             </a>
@@ -23,7 +23,16 @@
     
     <!-- Right Half -->
     <div class="w-full lg:w-1/2 h-[50vh] lg:h-auto relative bg-gray-200 order-1 lg:order-2">
-        <img src="{{ asset('images/default.webp') }}" alt="Hero Background" class="absolute inset-0 w-full h-full object-cover">
+        <video
+            autoplay
+            muted
+            loop
+            playsinline
+            class="absolute inset-0 w-full h-full object-cover"
+        >
+            <source src="{{ asset('videos/1.mp4') }}" type="video/mp4">
+            Browser Anda tidak mendukung video.
+        </video>
         
         <!-- Mobile Gradient Overlay for Header visibility -->
         <div class="absolute inset-0 w-full h-1/2 bg-gradient-to-b from-black/50 to-transparent lg:hidden pointer-events-none"></div>

@@ -8,7 +8,7 @@
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div class="w-full lg:w-1/2 text-center lg:text-left">
                 <div class="flex items-center justify-center lg:justify-start gap-2 text-[#C0A062] text-[0.65rem] font-bold tracking-[0.2em] uppercase mb-4 lg:mb-6">
-                    <a href="/employer-readiness" class="hover:text-[#324338] transition">Employer Readiness</a> 
+                    <a href="{{ route('employer.index') }}" class="hover:text-[#324338] transition">Employer Readiness</a> 
                     <span class="text-gray-400">/</span>
                     <span>Readiness Program</span>
                 </div>
@@ -104,18 +104,18 @@
     <!-- SECTION , FINAL CTA & RELATED -->
     <section class="py-20 lg:py-20 px-6 lg:px-12 bg-white text-[#324338] text-center">
         <div class="max-w-4xl mx-auto">
-            <a href="#" class="inline-flex justify-center items-center bg-[#324338] text-white px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 shadow-xl hover:shadow-2xl mb-12">
+            <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center bg-[#324338] text-white px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 shadow-xl hover:shadow-2xl mb-12">
                 Ask About Hospitality Talent
             </a>
             
             <div class="border-t border-gray-200 pt-10">
                 <p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-6">Related Programs</p>
                 <div class="flex flex-wrap justify-center gap-4 text-xs font-bold uppercase tracking-wide">
-                    <a href="/employer-readiness/cultural-readiness" class="text-[#324338] hover:text-[#C0A062] transition">Cultural & Workplace Readiness</a>
+                    <a href="{{ route('employer.cultural-readiness') }}" class="text-[#324338] hover:text-[#C0A062] transition">Cultural & Workplace Readiness</a>
                     <span class="text-gray-300">|</span>
-                    <a href="#" class="text-[#324338] hover:text-[#C0A062] transition">Employer Solutions</a>
+                    <a href="{{ route('employer.employer-solutions') }}" class="text-[#324338] hover:text-[#C0A062] transition">Employer Solutions</a>
                     <span class="text-gray-300">|</span>
-                    <a href="/employer-readiness" class="text-[#C0A062] hover:text-[#324338] transition">&larr; Back to Employer Readiness</a>
+                    <a href="{{ route('employer.index') }}" class="text-[#C0A062] hover:text-[#324338] transition">&larr; Back to Employer Readiness</a>
                 </div>
             </div>
         </div>

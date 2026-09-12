@@ -21,10 +21,10 @@
                 </p>
                 
                 <div class="mt-8 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                    <a href="#" class="inline-flex justify-center items-center bg-[#324338] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 w-full sm:w-auto">
+                    <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center bg-[#324338] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 w-full sm:w-auto">
                         Tell Us What You Need
                     </a>
-                    <a href="#" class="inline-flex justify-center items-center border border-[#324338] text-[#324338] px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#324338] hover:text-white transition duration-300 w-full sm:w-auto">
+                    <a href="{{ route('employer.employer-solutions') }}" class="inline-flex justify-center items-center border border-[#324338] text-[#324338] px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#324338] hover:text-white transition duration-300 w-full sm:w-auto">
                         Explore Employer Solutions
                     </a>
                 </div>
@@ -79,7 +79,7 @@
             </div>
             
             <div class="mt-10 text-center">
-                <a href="#" class="inline-flex items-center text-[#C0A062] font-bold text-sm tracking-widest uppercase hover:text-yellow-600 transition">
+                <a href="{{ route('contact.index') }}" class="inline-flex items-center text-[#C0A062] font-bold text-sm tracking-widest uppercase hover:text-yellow-600 transition">
                     Talk to Us About Your Hiring Need &rarr;
                 </a>
             </div>
@@ -158,37 +158,37 @@
                 <div class="bg-ds-light p-8 border border-gray-100 hover:shadow-lg transition duration-300 flex flex-col h-full group">
                     <h4 class="font-bold text-[#324338] text-lg mb-4">Candidate Readiness</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">Preparing candidates for the realities of a professional environment, not just the interview.</p>
-                    <a href="#" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Candidate Readiness &rarr;</a>
+                    <a href="{{ route('employer.candidate-readiness') }}" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Candidate Readiness &rarr;</a>
                 </div>
                 <div class="bg-ds-light p-8 border border-gray-100 hover:shadow-lg transition duration-300 flex flex-col h-full group">
                     <h4 class="font-bold text-[#324338] text-lg mb-4">Language Readiness</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">A certificate proves an exam was passed. Readiness proves the language works on the floor.</p>
-                    <a href="#" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Language Readiness &rarr;</a>
+                    <a href="{{ route('employer.language-readiness') }}" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Language Readiness &rarr;</a>
                 </div>
                 <div class="bg-ds-light p-8 border border-gray-100 hover:shadow-lg transition duration-300 flex flex-col h-full group">
                     <h4 class="font-bold text-[#324338] text-lg mb-4">Cultural & Workplace Readiness</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">Most workplace friction isn’t about competence, it’s about different expectations.</p>
-                    <a href="#" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Cultural & Workplace Readiness &rarr;</a>
+                    <a href="{{ route('employer.cultural-readiness') }}" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Cultural & Workplace Readiness &rarr;</a>
                 </div>
                 <div class="bg-ds-light p-8 border border-gray-100 hover:shadow-lg transition duration-300 flex flex-col h-full group">
                     <h4 class="font-bold text-[#324338] text-lg mb-4">International Talent</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">The right question isn’t “who’s available locally”, it’s “where does the right talent exist.”</p>
-                    <a href="#" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">International Talent &rarr;</a>
+                    <a href="{{ route('employer.international-talent') }}" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">International Talent &rarr;</a>
                 </div>
                 <div class="bg-ds-light p-8 border border-gray-100 hover:shadow-lg transition duration-300 flex flex-col h-full group">
                     <h4 class="font-bold text-[#324338] text-lg mb-4">Hospitality Talent</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">In hospitality, the employee isn’t just doing the job, they are the guest experience.</p>
-                    <a href="#" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Hospitality Talent &rarr;</a>
+                    <a href="{{ route('employer.hospitality-talent') }}" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Hospitality Talent &rarr;</a>
                 </div>
                 <div class="bg-ds-light p-8 border border-gray-100 hover:shadow-lg transition duration-300 flex flex-col h-full group">
                     <h4 class="font-bold text-[#324338] text-lg mb-4">Employer Solutions</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">We start by understanding your hiring need, not by sending you CVs.</p>
-                    <a href="#" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Employer Solutions &rarr;</a>
+                    <a href="{{ route('employer.employer-solutions') }}" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Employer Solutions &rarr;</a>
                 </div>
                 <div class="bg-ds-light p-8 border border-gray-100 hover:shadow-lg transition duration-300 flex flex-col h-full group lg:col-span-3 lg:w-1/3 mx-auto">
                     <h4 class="font-bold text-[#324338] text-lg mb-4">Document & Requirement Readiness</h4>
                     <p class="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">International hiring involves more than the interview, we help candidates arrive prepared on paper, too.</p>
-                    <a href="#" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Document & Requirement Readiness &rarr;</a>
+                    <a href="{{ route('employer.document-readiness') }}" class="text-[#C0A062] text-xs font-bold uppercase tracking-widest group-hover:text-yellow-600 transition mt-auto">Document & Requirement Readiness &rarr;</a>
                 </div>
             </div>
         </div>
@@ -302,10 +302,10 @@
                 Tell us which roles you are hiring for, how many candidates you need, and which requirements matter most to your organization.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4 mb-10">
-                <a href="#" class="inline-flex justify-center items-center bg-[#324338] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 w-full sm:w-auto">
+                <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center bg-[#324338] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 w-full sm:w-auto">
                     Tell Us What You Need
                 </a>
-                <a href="#" class="inline-flex justify-center items-center border border-[#324338] px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#324338] hover:text-white transition duration-300 w-full sm:w-auto">
+                <a href="{{ route('employer.employer-solutions') }}" class="inline-flex justify-center items-center border border-[#324338] px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#324338] hover:text-white transition duration-300 w-full sm:w-auto">
                     Explore Employer Solutions
                 </a>
             </div>

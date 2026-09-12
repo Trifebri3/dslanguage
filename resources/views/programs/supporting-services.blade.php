@@ -8,7 +8,7 @@
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div class="w-full lg:w-1/2 text-center lg:text-left">
                 <div class="flex items-center justify-center lg:justify-start gap-2 text-[#C0A062] text-[0.65rem] font-bold tracking-[0.2em] uppercase mb-4 lg:mb-6">
-                    <a href="/programs" class="hover:text-[#324338] transition">Germany Program</a> 
+                    <a href="{{ route('programs.index') }}" class="hover:text-[#324338] transition">Germany Program</a> 
                     <span class="text-gray-400">/</span>
                     <span>Coordination & Departure</span>
                 </div>
@@ -61,16 +61,16 @@
             <p class="text-gray-300 text-base sm:text-lg leading-relaxed mb-12 max-w-2xl mx-auto font-light">
                 If you already have a language certificate, an Ausbildung contract, or a university offer, this is the next step. Talk to us about what’s left before departure.
             </p>
-            <a href="#" class="inline-flex justify-center items-center bg-white text-[#324338] px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] hover:text-white transition duration-300 shadow-xl hover:shadow-2xl mb-12">
+            <a href="{{ route('contact.index') }}" class="inline-flex justify-center items-center bg-white text-[#324338] px-8 py-5 text-sm font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] hover:text-white transition duration-300 shadow-xl hover:shadow-2xl mb-12">
                 Ask About Supporting Services
             </a>
             
             <div class="border-t border-gray-600/50 pt-10">
                 <p class="text-xs text-gray-400 font-bold uppercase tracking-widest mb-6">Related Links</p>
                 <div class="flex flex-wrap justify-center gap-4 text-xs font-bold uppercase tracking-wide">
-                    <a href="/employer-readiness/document-readiness" class="text-[#C0A062] hover:text-white transition">Document & Req Readiness (Employer)</a>
+                    <a href="{{ route('employer.document-readiness') }}" class="text-[#C0A062] hover:text-white transition">Document & Req Readiness (Employer)</a>
                     <span class="text-gray-500">|</span>
-                    <a href="/programs" class="text-[#C0A062] hover:text-white transition">&larr; Back to Germany Program</a>
+                    <a href="{{ route('programs.index') }}" class="text-[#C0A062] hover:text-white transition">&larr; Back to Germany Program</a>
                 </div>
             </div>
         </div>

@@ -150,11 +150,11 @@
                 This is who we are. Here’s what it looks like in practice.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#" class="inline-flex justify-center items-center bg-[#324338] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 w-full sm:w-auto">
-                    Explore Programs &rarr; Germany Program
+                <a href="{{ route('programs.index') }}" class="inline-flex justify-center items-center bg-[#324338] text-white px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#C0A062] transition duration-300 w-full sm:w-auto">
+                    Explore Programs
                 </a>
-                <a href="#" class="inline-flex justify-center items-center border border-[#324338] px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#324338] hover:text-white transition duration-300 w-full sm:w-auto">
-                    Explore Employer Solutions &rarr; Employer Readiness
+                <a href="{{ route('employer.index') }}" class="inline-flex justify-center items-center border border-[#324338] px-6 lg:px-8 py-4 text-xs font-bold tracking-[0.15em] uppercase hover:bg-[#324338] hover:text-white transition duration-300 w-full sm:w-auto">
+                    Explore Employer Solutions
                 </a>
             </div>
         </div>
