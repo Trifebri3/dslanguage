@@ -11,7 +11,7 @@ Route::get('/lang/{locale}', function ($locale) {
 })->name('lang.switch');
 
 Route::get('/', function () {
-    return view('homepage.index');
+    return view('homepage.root');
 })->name('homepage.index');
 
 Route::get('/about', function () {

@@ -30,7 +30,7 @@
             playsinline
             class="absolute inset-0 w-full h-full object-cover"
         >
-            <source src="{{ asset('videos/1.mp4') }}" type="video/mp4">
+            <source src="{{ asset('video/1.mp4') }}" type="video/mp4">
             Browser Anda tidak mendukung video.
         </video>
         

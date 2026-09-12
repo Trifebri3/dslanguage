@@ -24,6 +24,7 @@
                 <div class="flex flex-col gap-3 lg:gap-4 text-gray-300 text-sm items-center lg:items-start">
                     <p>+49 175 1426510 (Assistant)</p>
                     <a href="mailto:institutkurs.ds@gmail.com" class="hover:text-white transition">institutkurs.ds@gmail.com</a>
+                    <a href="mailto:partnership@dsadvisor.asia" class="hover:text-white transition">partnership@dsadvisor.asia</a>
                     <a href="#" class="hover:text-white transition">Instagram</a>
                 </div>
             </div>
