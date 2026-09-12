@@ -85,3 +85,24 @@ Route::get('/employer-readiness/employer-solutions', function () {
 Route::get('/employer-readiness/document-readiness', function () {
     return view('employer.document-readiness');
 })->name('employer.document-readiness');
+
+Route::get('/sitemap.xml', function () {
+    $urls = [
+        '/', '/about', '/programs', '/programs/german-language', '/programs/ausbildung',
+        '/programs/study-in-germany', '/programs/supporting-services', '/japan-career-hub',
+        '/netherlands-hub', '/insights', '/contact', '/employer-readiness',
+        '/employer-readiness/candidate-readiness', '/employer-readiness/language-readiness',
+        '/employer-readiness/cultural-readiness', '/employer-readiness/international-talent',
+        '/employer-readiness/hospitality-talent', '/employer-readiness/employer-solutions',
+        '/employer-readiness/document-readiness'
+    ];
+    
+    $xml = '<?xml version="1.0" encoding="UTF-8"?>';
+    $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+    foreach ($urls as $url) {
+        $xml .= '<url><loc>' . url($url) . '</loc><changefreq>weekly</changefreq><priority>' . ($url == '/' ? '1.0' : '0.8') . '</priority></url>';
+    }
+    $xml .= '</urlset>';
+    
+    return response($xml, 200)->header('Content-Type', 'text/xml');
+});
