@@ -11,7 +11,7 @@
             <div class="relative w-56 h-56 lg:w-72 lg:h-72 mb-10 mx-auto">
                 <!-- Organic abstract blob background (similar to the image) -->
                 <div class="absolute inset-0 bg-[#FDFBF7] rounded-[40%_60%_70%_30%/40%_50%_60%_50%] transform -rotate-6 scale-110 shadow-sm border border-[#C0A062]/20"></div>
-                <img src="{{ asset('images/default.webp') }}" alt="Anna Sandala B.Sc" class="relative z-10 w-full h-full object-cover rounded-[40%_60%_70%_30%/40%_50%_60%_50%] drop-shadow-xl border-4 border-white">
+                <img src="{{ asset('images/ceo.png') }}" alt="Anna Sandala B.Sc" class="relative z-10 w-full h-full object-cover rounded-[40%_60%_70%_30%/40%_50%_60%_50%] drop-shadow-xl border-4 border-white">
             </div>
             
             <!-- Typography & Content (Left Aligned as in design) -->
